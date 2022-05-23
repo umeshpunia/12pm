@@ -1,0 +1,35 @@
+CSS ->
+    Cascading Style Sheet (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is designed to be used alongside and as an extension of HTML, but it can also be used as a stand-alone language.
+
+    Line By Line
+    No Errors
+    No Warnings
+    No Case Sensitive
+    p => property
+    v => value
+
+    Types ->
+        1. Inline
+            Those css which are written in the style attribute of the html tag.
+
+            Example =>
+                <tag style="p:v;p:v;....."></tag>
+        2. Internal
+            Those css which are written in the style tag of the html tag.
+
+            Example ->
+                <head>
+                    <style>
+                        selector{
+                            p:v;
+                            p:v;
+                            ....
+                        }
+                        .
+                        ..
+                        .
+                    </style>
+                </head>
+
+        3. External =>
+            Those css which are written in the external file with extension .css.
